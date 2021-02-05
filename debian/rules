@@ -5,7 +5,7 @@
 export DH_VERBOSE=1
 COMMON_CONFIGURE_ARGS := \
   --enable-optimizations \
-  --prefix=/opt/python-3.8.5/
+  --prefix=/opt/python-3.9.1/
 
 %:
 	dh $@ 
